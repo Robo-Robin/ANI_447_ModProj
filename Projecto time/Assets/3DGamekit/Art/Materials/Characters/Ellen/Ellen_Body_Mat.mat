@@ -8,24 +8,26 @@ Material:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_Name: Ellen_Body_Mat
-  m_Shader: {fileID: 4800000, guid: 28f2c051387f9b247b8228c55af3afe3, type: 3}
+  m_Shader: {fileID: -6465566751694194690, guid: 02edb3a2fba9fdc4dacc029ebe7cc765,
+    type: 3}
   m_Parent: {fileID: 0}
   m_ModifiedSerializedProperties: 0
   m_ValidKeywords: []
-  m_InvalidKeywords:
-  - _EMISSION
-  - _METALLICGLOSSMAP
-  - _NORMALMAP
+  m_InvalidKeywords: []
   m_LightmapFlags: 1
   m_EnableInstancingVariants: 0
   m_DoubleSidedGI: 0
-  m_CustomRenderQueue: 3000
+  m_CustomRenderQueue: -1
   stringTagMap: {}
   disabledShaderPasses: []
   m_LockedProperties: 
   m_SavedProperties:
     serializedVersion: 3
     m_TexEnvs:
+    - _BaseMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
     - _BumpMap:
         m_Texture: {fileID: 2800000, guid: 8349958633769e34bb7496659a03983d, type: 3}
         m_Scale: {x: 1, y: 1}
@@ -46,12 +48,24 @@ Material:
         m_Texture: {fileID: 2800000, guid: b4b755d5cc444c54ca35b5c41555844e, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
+    - _HoloTex:
+        m_Texture: {fileID: 2800000, guid: a721408f5ab2d404db403653346e41aa, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
     - _MainTex:
         m_Texture: {fileID: 2800000, guid: be0111b341746904d972d1bb2fa0e0a4, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _MetallicGlossMap:
         m_Texture: {fileID: 2800000, guid: d6dbc9ef89fd5b94d889616bfa730aec, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _NoiseMask:
+        m_Texture: {fileID: 2800000, guid: 1bda3197e6979e1439ae68e9e7ec95b9, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _NoiseTex:
+        m_Texture: {fileID: 2800000, guid: 612f7739d1c6aa747bf3f11fabcfe2fc, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _OcclusionMap:
@@ -64,6 +78,9 @@ Material:
         m_Offset: {x: 0, y: 0}
     m_Ints: []
     m_Floats:
+    - _Auto_Speed: 0
+    - _BUILTIN_QueueControl: 0
+    - _BUILTIN_QueueOffset: 0
     - _Brightness: 0.1
     - _BumpScale: 1
     - _Cutoff: 0.5
@@ -73,17 +90,43 @@ Material:
     - _GlossMapScale: 0.9
     - _Glossiness: 0.5
     - _GlossyReflections: 1
+    - _HoloIntensity: 6
     - _Metallic: 0
     - _Mode: 0
+    - _Noise_Int: 0.194
     - _OcclusionStrength: 1
     - _Parallax: 0.02
+    - _Scrollspeed: 0.3
     - _SmoothnessTextureChannel: 0
     - _SpecularHighlights: 1
+    - _Speed_Int: 2
     - _SrcBlend: 1
     - _Strength: 0.5
     - _UVSec: 0
+    - _U_NoiseMaskS: 1
+    - _U_NoiseSpeed: 1
+    - _V_NoiseMaskS: 0
+    - _V_NoiseSpeed: 0
     - _ZWrite: 1
     m_Colors:
+    - _BaseColor: {r: 0.33748668, g: 0.8588524, b: 0.9056604, a: 0}
     - _Color: {r: 1, g: 1, b: 1, a: 1}
     - _EmissionColor: {r: 0, g: 3.7586205, b: 5.0000005, a: 1}
+    - _FresnelColor: {r: 0, g: 6.53339, b: 1.796879, a: 1}
+    - _HoloTexTiling: {r: 1, g: 3, b: 0, a: 0}
+    - _MainTex_Color: {r: 1, g: 1, b: 1, a: 1}
+    - _RB_Offset: {r: 0.03, g: 0, b: -0.03, a: 0}
   m_BuildTextureStacks: []
+--- !u!114 &3019862404271486841
+MonoBehaviour:
+  m_ObjectHideFlags: 11
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 639247ca83abc874e893eb93af2b5e44, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  version: 0
