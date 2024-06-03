@@ -25,7 +25,7 @@ Material:
     serializedVersion: 3
     m_TexEnvs:
     - _BaseMap:
-        m_Texture: {fileID: 0}
+        m_Texture: {fileID: 2800000, guid: be0111b341746904d972d1bb2fa0e0a4, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _BumpMap:
@@ -109,10 +109,10 @@ Material:
     - _V_NoiseSpeed: 0
     - _ZWrite: 1
     m_Colors:
-    - _BaseColor: {r: 0.33748668, g: 0.8588524, b: 0.9056604, a: 0}
+    - _BaseColor: {r: 0, g: 0.66110593, b: 0.7207546, a: 0}
     - _Color: {r: 1, g: 1, b: 1, a: 1}
     - _EmissionColor: {r: 0, g: 3.7586205, b: 5.0000005, a: 1}
-    - _FresnelColor: {r: 0, g: 6.53339, b: 1.796879, a: 1}
+    - _FresnelColor: {r: 0, g: 26.133556, b: 7.187515, a: 1}
     - _HoloTexTiling: {r: 1, g: 3, b: 0, a: 0}
     - _MainTex_Color: {r: 1, g: 1, b: 1, a: 1}
     - _RB_Offset: {r: 0.03, g: 0, b: -0.03, a: 0}
