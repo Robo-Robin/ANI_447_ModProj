@@ -99,9 +99,9 @@ Material:
     - _UVSec: 0
     - _ZWrite: 1
     m_Colors:
-    - _AmbientGround: {r: 0.8018868, g: 0.44653118, b: 0.26099145, a: 1}
-    - _AmbientHorizon: {r: 0.18039216, g: 0.31298855, b: 0.6039216, a: 1}
-    - _AmbientSky: {r: 0.1071111, g: 0.7830189, b: 0.55960745, a: 1}
+    - _AmbientGround: {r: 0.23584908, g: 0.08310422, b: 0.0033374808, a: 1}
+    - _AmbientHorizon: {r: 0.6037736, g: 0.32915878, b: 0.17372729, a: 1}
+    - _AmbientSky: {r: 0, g: 0, b: 0, a: 1}
     - _Color: {r: 1, g: 1, b: 1, a: 1}
     - _EmissionColor: {r: 0, g: 0, b: 0, a: 1}
     - _GroundColor: {r: 0.6102941, g: 0.47440997, b: 0.4263084, a: 1}

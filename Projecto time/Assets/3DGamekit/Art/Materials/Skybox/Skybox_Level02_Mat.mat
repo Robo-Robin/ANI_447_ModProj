@@ -100,8 +100,8 @@ Material:
     - _ZWrite: 1
     m_Colors:
     - _AmbientGround: {r: 0.254717, g: 0.15499288, b: 0.15731205, a: 1}
-    - _AmbientHorizon: {r: 0, g: 1, b: 0.84884524, a: 1}
-    - _AmbientSky: {r: 0, g: 0.449816, b: 1, a: 1}
+    - _AmbientHorizon: {r: 0.8584906, g: 0.5174536, b: 0.2956123, a: 1}
+    - _AmbientSky: {r: 0, g: 0, b: 0, a: 1}
     - _Color: {r: 1, g: 1, b: 1, a: 1}
     - _EmissionColor: {r: 0, g: 0, b: 0, a: 1}
     - _GroundColor: {r: 0.6102941, g: 0.47440997, b: 0.4263084, a: 1}
